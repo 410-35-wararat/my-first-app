@@ -94,11 +94,12 @@ if "start" in st.session_state and not st.session_state.get("is_ended", False):
         st.rerun()
 
     time.sleep(1)
-st.rerun()
+    st.rerun()
 
 # 5. แสดง Dialog ผลลัพธ์
 if st.session_state.get("is_ended", False):
     show_result_dialog(ans1, ans2)
 
 st.divider()
-st.write("นางสาววรารัตน์ เลขที่ 35 ม.4/10")
+st.write("นางสาวดีใจ ยิ้มแย้ม เลขที่ 5 ม.4/5")
+

@@ -72,11 +72,11 @@ st.divider()
 
 # 3. ช่องรับคำตอบ (ใช้ value ผูกกับตัวแปรตรงๆ เพื่อสั่งเคลียร์ได้)
 ans1 = st.text_input(
-    "ข้อ 1: An `a _ _ l e` a day keeps the doctor away. 🍎",
+    "ข้อ 1: An `W a _ e r m _ l on` a day keeps the doctor away. 🍉",
     value=st.session_state.ans1_val,
 )
 ans2 = st.text_input(
-    "ข้อ 2: Cats love to eat `f _ s h`. 🐟",
+    "ข้อ 2: Cats love to eat `L a p t o _`. 💻",
     value=st.session_state.ans2_val,
 )
 
